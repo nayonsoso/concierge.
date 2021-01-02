@@ -179,8 +179,8 @@ section.about .inner .line li:before {content:''; width: 100%; height: 100%; bor
 
 /* ul부분 즉, 선 아래 글씨부분 설정 */
 /* margin: 0 auto; -> 가운데에 오도록 설정 */
-section.about .inner ul {width: 60%; margin: 0 auto;}
-section.about .inner ul li {color: #c5c5c5; float: left; width:33.333%; font-size: 16px; font-weight: 100;}
+section.about .inner ul {width: 62%; margin: 0 auto;}
+section.about .inner ul li {color: #c5c5c5; float: left; width:33.333%; font-size: 15px; font-weight: 100;}
 section.about .inner ul li h3 {font-size: 19px; margin-bottom: 20px; font-weight: normal; color: #fff;}
 
 /* inner 내용 애니메이션 */
