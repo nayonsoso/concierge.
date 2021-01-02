@@ -265,7 +265,7 @@ section.global ul li a .img {box-shadow: 10px 10px 10px rgba(0,0,0,0.25); positi
 /* img를 컨테이너에 맞게 가득 채워줘야 함 - 화면 크기에 따라 달라질 수 있으므로 주의! */
 section.global ul li a img{width: 100%; height: 100%;} 
 section.global ul li a .img:after /* .img의 뒤에 오는 가상요소 */
-{content:'VIEW'; width: 100%; height: 100%; background: rgba(44,35,28,0.8); position: absolute; left: 0; top:0; font-size: 22px; color:#d4d4d4; transition: all 0.2s; padding-top: 200px; box-sizing: border-box; opacity: 0;}
+{content:'VIEW'; width: 100%; height: 100%; background: rgba(44,35,28,0.8); position: absolute; left: 0; top:0; font-size: 22px; color:#d4d4d4; transition: all 0.2s; padding-top: 180px; box-sizing: border-box; opacity: 0;}
 section.global ul li a:hover .img,section.global ul li a:focus .img /* a에 커서 있을때 .img 변화 */
 {transform: translate(-8px,-8px); box-shadow: 15px 18px 10px rgba(0,0,0,0.35); }
 section.global ul li a:hover .img:after, section.global ul li a:focus img:after /* a에 커서 있을때 .img 뒤에오는 가상요소의 변화 */
